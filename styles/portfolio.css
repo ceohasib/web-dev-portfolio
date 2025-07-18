@@ -202,7 +202,7 @@ footer input[type="text"], footer input[type="email"], footer textarea {
         width: 20px;
     }
     .banner-profile-pic{
-        width: 1000%;
+        width: 100%;
     }
     .btn-primary{
         margin-bottom: 20px;
@@ -219,6 +219,4 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     .header {
         background-image: none;
     }
-
-    
 }
