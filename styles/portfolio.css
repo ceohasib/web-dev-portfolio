@@ -168,6 +168,7 @@ footer {
 .footer-column{
     width:50%;
 }
+
 footer input[type="text"], footer input[type="email"], footer textarea {
     height: 64px;
     border-radius: 5px;
@@ -177,7 +178,6 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
-
 }
 
 /* Responsive media Query */
@@ -189,8 +189,23 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     .skills-container, 
     .resume-container, 
     footer,
+    .banner,
+    nav,
+    nav > ul,
     .about-items {
         flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    .banner{
+        width: 20px;
+    }
+    .banner-profile-pic{
+        width: 1000%;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
     }
     footer, .about{
         padding: 20px;
@@ -201,4 +216,9 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     footer input[type="text"], footer input[type="email"], footer textarea {
         width: calc(100% - 40PX);
     }
+    .header {
+        background-image: none;
+    }
+
+    
 }
